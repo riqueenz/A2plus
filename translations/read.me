@@ -1,28 +1,26 @@
 About translation A2plus Workbench.
 
 
-For create new language file:
-1. For create new A2plus.ts file with all A2plus strings:
+1. For create new language file:
+You need create new A2plus.ts file with all A2plus strings:
 $ python3 update_ts.py -c
 
 2. Now you can rename new A2plus.ts file to 'A2plus_"you language two or four letters".ts' file ('A2plus_it.ts' for Italy):
 
 
-For edit your language file:
-3. Open language file in 'QT Linguist' or in text editor - 'xed', 'mousepad', 'gedit' etc.
+3. For edit your language file:
+Open language file in 'QT Linguist' or text editor - 'xed', 'mousepad', 'gedit' etc.
 And translate it.
 
-
-For update all language files (for developers only):
-4. You can update all .ts files from source files:
+4. For update all language files (for developers only):
+You can update all .ts files from source files:
 $ python3 update_ts.py -u
 
-
-For convert all *.ts files to *.qm files:
-5. Then you must convert all .ts files to .qm files (merge):
+5. For convert all *.ts files to *.qm files:
+Then you must convert all .ts files to .qm files (merge):
 $ python3 update_ts.py -m
 
-
+6. For sare your language file:
 Now you can upload your translated .ts file to A2plus site:
 https://github.com/kbwbe/A2plus
 
